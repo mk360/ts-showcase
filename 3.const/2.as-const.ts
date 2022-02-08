@@ -12,7 +12,7 @@ const W = ["first value", "second value"] as const;
 // "second value") instead of a simple "string[]"
 
 for (let element of W) {
-    // your IDE can now confirm "element"
+    // TypeScript can now confirm "element"
     // is either "first value" or "second value",
     // applying more accurate logic on your code
 }

@@ -15,3 +15,7 @@ The examples are for Typescript v.4.5.5 (as of February 3rd, 2022).
 You may run into TypeScript errors while viewing this repository inside your IDE. This is normal.
 
 This repository not only intends to teach how to use a feature well, but also what happens if something is used wrong.
+
+## Credits
+
+* [Jonathan Jot](https://github.com/npjonath), for suggesting the repository idea.

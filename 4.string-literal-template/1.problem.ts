@@ -8,4 +8,8 @@ function createTextWithSize(text: string, size: string) {
 };
 
 // However, this is a naive approach that requires manually checking
-// if the string follows the proper format (for example, a number that ends with "px")
+// if the string follows the proper format (for example, a number that ends with "px" or "rem"),
+// typically with a regex or with a .endsWith, .startsWith manipulation.
+
+// You'll also need to prepare fallback values in case your check fails,
+// in short, you'll be in a mess.

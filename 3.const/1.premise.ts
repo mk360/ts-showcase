@@ -9,7 +9,8 @@ const pi = 3.14;
 const isTrue = true;
 
 
-// although they were initialized with const, you still can edit them
+// arrays and objects, although they were initialized with const,
+// still can be edited
 
 const array = [1, 2, 3, 4];
 

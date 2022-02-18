@@ -12,7 +12,8 @@ interface IRequired {
 const req: IRequired = {};
 
 // error: you need to provide a 
-// "prop" property
+// "prop" property since it's
+// required
 
 type IPartial = Partial<IRequired>;
 

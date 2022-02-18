@@ -30,3 +30,10 @@ const readonlyArray: ReadonlyArray<number> = [2, 4]
 // There are also ReadonlyMap and ReadonlySet
 // which freeze Map and Set objects
 // respectively
+
+// To make a number, string or variable readonly,
+// just declare it with const
+
+const readonlyString = "read only";
+const readonlyNumber = 36;
+const readonlyBoolean = true;
